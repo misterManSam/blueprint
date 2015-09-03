@@ -14,24 +14,24 @@ These instructions are for Stylish on [Chromium-based browsers (like Chrome)](ht
 * Click on the Stylish icon.
 * Click on "Manage installed styles" (Chrome) or "Manage styles" (Firefox).
 * Click on "Write New Style"
-* Name it "Snowflake for Web"
+* Name it "Blueprint"
 
 ### How to install this style
 
-* Name the Style anything you want, but something easy to recognise like *Snowflake* would be good.
-* Paste the text from `sheet.css` for the theme you use into the textbox.
+* Name the Style anything you want, but something easy to recognise like *Blueprint* would be good.
+* Paste the text from `style.css` for the theme you use into the textbox.
 
 #### Chrome
 
-* Create a rule pointing to `URLs starting with` `https://twitter.com`.
-* Click on **Save** and look at Twitter!
+* Create a rule pointing to `URLs starting with` `https://www.google.`.
+* Click on **Save** and look at Google!
 
 #### Firefox
 
 * Add the following into the textbox on a single line, before the contents of Snowflake.css: 
-* `@-moz-document url-prefix("https://twitter.com") {`
+* `@-moz-document url-prefix("https://www.google.) {`
 * Scroll to the bottom of the textbox and add an extra line with a single `}` on it.
-* Click on **Save** and look at Twitter!
+* Click on **Save** and look at Google!
 
 Credits
 -------------
