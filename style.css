@@ -381,3 +381,25 @@ td.b.navend {
 #gb#gb a.gb_P,#gb#gb span.gb_P {
     color:#fff
 }
+
+input[type="submit"] {
+    font-weight:200!important;
+    font-family:'Roboto'!important;
+    text-transform:uppercase;
+    text-decoration:none!important;
+    color:#fff!important;
+    background-color:#1e88e5!important;
+    text-align:center!important;
+    letter-spacing:.5px!important;
+    -webkit-transition:.2s ease-out!important;
+    -moz-transition:.2s ease-out!important;
+    -o-transition:.2s ease-out!important;
+    -ms-transition:.2s ease-out!important;
+    transition:.2s ease-out!important;
+    box-shadow:0 0 10px rgba(0,0,0,0.2)!important
+}
+
+input[type="submit"]:hover {
+    background-color:#2196f3!important;
+    box-shadow:0 0 10px rgba(0,0,0,0.4)!important
+}
